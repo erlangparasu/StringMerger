@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public static class StringMerger {
 
     protected int mMaxLength;
