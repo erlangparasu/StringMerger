@@ -2,6 +2,7 @@
 
 ## How to use
 
+```java
 ArrayList<StringMerger.Layer> layers = new ArrayList<>();
 layers.add(new StringMerger.Layer("left", 4, "Abcdefghijklmnopqrstuvwxyz"));
 layers.add(new StringMerger.Layer("left", 0, "1x2 "));
@@ -15,3 +16,4 @@ System.out.println(mergedString);
 
 // Output:
 // 1x2 AbcdefghijklHELLO Rp20.000
+```
