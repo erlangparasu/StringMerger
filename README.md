@@ -26,11 +26,11 @@ System.out.println(strResult);
 ### How it works
 Concept:
 ```
-Layer 0: '                              ' ---> initial 30 spaces
-Layer 1: '    Abcdefghijklmnopqrstuvwxyz' ---> from left
-Layer 2: '6789                          ' ---> from left
-Layer 3: '                     @Rp20.000' ---> from right
-Layer 4: '                HELLO         ' ---> from right
+Layer 0: '                              ' ---> initial 30 spaces.
+Layer 1: '    Abcdefghijklmnopqrstuvwxyz' ---> from left.
+Layer 2: '6789                          ' ---> from left.
+Layer 3: '                     @Rp20.000' ---> from right. 'rstuvwxyz' will be replaced.
+Layer 4: '                HELLO         ' ---> from right. 'mnopq' will be replaced.
 
-Result : '6789AbcdefghijklHELLO@Rp20.000' ---> output
+Result : '6789AbcdefghijklHELLO@Rp20.000' ---> output.
 ```
