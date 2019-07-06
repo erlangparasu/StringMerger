@@ -1,5 +1,8 @@
 # StringMerger
 
+## Installation
+Just copy `StringMerger.java` file to your project
+
 ## How to use
 Example:
 ```java
