@@ -1,7 +1,7 @@
 # StringMerger
 
 ## How to use
-
+Example:
 ```java
 ArrayList<StringMerger.Layer> layers = new ArrayList<>();
 layers.add(new StringMerger.Layer("left", 4, "Abcdefghijklmnopqrstuvwxyz"));
@@ -19,4 +19,16 @@ System.out.println(mergedString);
 
 // Output:
 // 6789AbcdefghijklHELLO@Rp20.000
+```
+
+## How it works
+Concept:
+```
+Layer 0: '                              ' ---> initial 30 spaces
+Layer 1: '    Abcdefghijklmnopqrstuvwxyz' ---> from left
+Layer 2: '6789                          ' ---> from left
+Layer 3: '                     @Rp20.000' ---> from right
+Layer 4: '                HELLO         ' ---> from right
+
+Result : '6789AbcdefghijklHELLO@Rp20.000' ---> output
 ```
