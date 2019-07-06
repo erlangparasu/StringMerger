@@ -1,9 +1,9 @@
 # StringMerger
 
-## Installation
+### Installation
 Just copy `StringMerger.java` file to your project
 
-## How to use
+### How to use
 Example:
 ```java
 ArrayList<StringMerger.Layer> layers = new ArrayList<>();
@@ -12,19 +12,18 @@ layers.add(new StringMerger.Layer("left", 0, "6789"));
 layers.add(new StringMerger.Layer("right", 0, "@Rp20.000"));
 layers.add(new StringMerger.Layer("right", 9, "HELLO"));
 
-StringMerger stringMerger = new StringMerger(30, ' ', layers);
-//stringMerger.setMaxLength(30);
-//stringMerger.setBgChar(' ');
-//stringMerger.setLayers(layers);
-String mergedString = stringMerger.getMergedString();
+StringMerger merger = new StringMerger(30, ' ', layers);
+//merger.setMaxLength(30);
+//merger.setBgChar(' ');
+//merger.setLayers(layers);
+String strResult = merger.getMergedString();
 
-System.out.println(mergedString);
-
+System.out.println(strResult);
 // Output:
 // 6789AbcdefghijklHELLO@Rp20.000
 ```
 
-## How it works
+### How it works
 Concept:
 ```
 Layer 0: '                              ' ---> initial 30 spaces
