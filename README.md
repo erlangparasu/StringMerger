@@ -25,7 +25,7 @@ StringMerger merger = new StringMerger(30, ' ', layers);
 
 String result = merger.getMergedString();
 
-System.out.println(result); // output: 6789AbcdefghijklHELLO@Rp20.000
+System.out.println(result); // output: "6789AbcdefghijklHELLO@Rp20.000"
 ```
 
 ### How it works
