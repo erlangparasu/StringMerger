@@ -33,11 +33,11 @@ System.out.println(result); // output: 6789AbcdefghijklHELLO@Rp20.000
 Concept:
 
 ```
-Bg Char: '                              ' ---> initial 30
-Layer 1: '    Abcdefghijklmnopqrstuvwxyz' ---> left  4
-Layer 2: '6789                          ' ---> left  0
-Layer 3: '                     @Rp20.000' ---> right 0 ---> 'rstuvwxyz' will be replaced
-Layer 4: '                HELLO         ' ---> right 9 ---> 'mnopq' will be replaced
+Bg Char: "                              " ---> initial 30
+Layer 1: "    Abcdefghijklmnopqrstuvwxyz" ---> left  4
+Layer 2: "6789                          " ---> left  0
+Layer 3: "                     @Rp20.000" ---> right 0 ---> "rstuvwxyz" will be replaced
+Layer 4: "                HELLO         " ---> right 9 ---> "mnopq" will be replaced
 
-Result : '6789AbcdefghijklHELLO@Rp20.000'
+Result : "6789AbcdefghijklHELLO@Rp20.000"
 ```
