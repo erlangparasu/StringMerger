@@ -33,7 +33,7 @@ System.out.println(result); // output: 6789AbcdefghijklHELLO@Rp20.000
 Concept:
 
 ```
-Layer 0: '                              ' ---> initial 30 spaces
+Bg Char: '                              ' ---> initial 30 spaces
 Layer 1: '    Abcdefghijklmnopqrstuvwxyz' ---> left
 Layer 2: '6789                          ' ---> left
 Layer 3: '                     @Rp20.000' ---> right. 'rstuvwxyz' will be replaced
