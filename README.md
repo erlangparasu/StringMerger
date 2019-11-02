@@ -18,6 +18,8 @@ layers.add(new StringMerger.Layer("right", 9, "HELLO"));
 
 // Init merger
 StringMerger merger = new StringMerger(30, ' ', layers);
+
+// Some options
 //merger.setMaxLength(30);
 //merger.setBgChar(' ');
 //merger.setLayers(layers);
